@@ -1,0 +1,41 @@
+.page {
+  background-color: #1a8a48; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-box {
+  background-color: #000; 
+  color: #fff; 
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.result-box h1 {
+  margin-bottom: 20px;
+}
+
+.result-box p {
+  margin: 10px 0;
+}
+
+.result-box button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.result-box button:hover {
+  background-color: #219150;
+}
